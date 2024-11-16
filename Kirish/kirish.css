@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", "Arial", sans-serif;
+  background-image: url("/images/Screenshot-2024-09-24-190156.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  display: block;
+}
+
+.link-to-qayd-qilish {
+  display: inline-block;
+  transition: color 0.5s linear, text-decration-color 0.3s linear;
+}
+
+.link-to-qayd-qilish:hover {
+  color: white;
+  text-decoration-color: white;
+}
